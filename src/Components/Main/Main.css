@@ -1,0 +1,108 @@
+.home-background {
+  width: 100%;
+}
+.main {
+  margin-bottom: 6.25rem;
+}
+
+.buttons-after-hover {
+  position: absolute;
+  top: 135%;
+  left: 10%;
+}
+.buttons-before-hover {
+  position: absolute;
+  top: 135%;
+  left: 40%;
+  width: 15.75rem;
+  height: 3.75rem;
+  left: 40%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+.buttons-before-hover button {
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.625rem 1.25rem;
+}
+
+.menu-button {
+  width: 7.625rem;
+  background: rgba(244, 244, 244, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 14.875rem;
+}
+
+.home-button {
+  width: 7.625rem;
+  background: #ffe141;
+  border-radius: 13.125rem;
+  border: none;
+}
+.menu-hover {
+  box-sizing: border-box;
+  justify-content: space-between;
+  list-style: none;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 7px 38px;
+  gap: 1.3rem;
+  background: rgba(244, 244, 244, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 120px;
+}
+.menu-hover a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.menu-hover li::before {
+  display: inline-block;
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.menu-hover li:hover::before {
+  background-color: #ffe141;
+}
+.menu-hover li {
+  display: flex;
+  align-items: center;
+}
+.buttons-after-hover {
+  display: flex;
+  height: 3.75rem;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 0.5rem;
+}
+.buttons-after-hover button {
+  width: 7.625rem;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 3.75rem;
+  padding: 0.625rem 1.25rem;
+}

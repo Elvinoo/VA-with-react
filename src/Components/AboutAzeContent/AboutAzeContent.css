@@ -1,0 +1,65 @@
+.content {
+  display: flex;
+  margin-bottom: 60px;
+  column-gap: 20px;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  padding: 37px 21px 55px 21px;
+  background: #ececec;
+  border-radius: 18px;
+  height: 20rem;
+  width: 15%;
+}
+.left-column a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.right-column {
+  overflow: hidden;
+  height: 30rem;
+  padding: 30px 20px;
+  background: #ececec;
+  border-radius: 18px;
+  width: 51%;
+}
+
+.right-column:hover {
+  overflow: auto;
+}
+
+.right-column::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  opacity: 0; /* Hide the scrollbar by default */
+}
+
+.right-column:hover::-webkit-scrollbar {
+  opacity: 1; /* Show the scrollbar on hover */
+}
+
+.right-column::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.right-column::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.right-column::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.generalInfo {
+  font-size: 1.82rem;
+  margin-bottom: 3.125rem;
+  width: 66%;
+  line-height: 2.81rem;
+}

@@ -1,0 +1,56 @@
+.header {
+  padding: 1.5625rem 6.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  width: 30.625rem;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.language-select option {
+  border: none;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  padding: 0 0.625rem;
+}
+.language-select option {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  border-radius: 0;
+  padding: 0.625rem;
+}
+.language-select {
+  border: none;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  padding: 0 0.625rem;
+}
+.whatsapp-icon {
+  display: flex;
+  align-items: center;
+}

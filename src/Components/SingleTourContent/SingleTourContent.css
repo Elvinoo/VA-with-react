@@ -1,0 +1,8 @@
+.day {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 25px;
+}
+.tour-heading {
+  margin-bottom: 100px;
+}

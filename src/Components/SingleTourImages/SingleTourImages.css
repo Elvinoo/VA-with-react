@@ -1,0 +1,15 @@
+.single-tour-images {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 20px;
+  overflow: hidden;
+  margin-top: 80px;
+  margin-bottom: 68px;
+}
+.single-tour-images img {
+  flex: none;
+  border-radius: 1.5rem;
+  flex-grow: 0;
+}
